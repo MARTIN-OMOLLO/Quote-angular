@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
+import { from } from 'rxjs';
 import { Goal } from './goal';
-
+// import { goal-form } from './goal-form.component.html'
 
 @Component({
   selector: 'app-root',
