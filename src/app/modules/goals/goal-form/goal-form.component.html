@@ -1,13 +1,15 @@
-<p>goal-form works!</p>
+<p>Add Your Quote Form!</p>
 <div class="container-fluid">
     <h2 class="text-center">Create a new Goal</h2>
     <hr>
-    <form>
+    <form #goalForm='ngForm'>
         <div class="form-group">
   
             <label for="name">Name</label>
-            <input type="text" required class="form-control" id="name">
+            <input type="text" required class="form-control" id="name" [(ngModel)]="newGoal.name" name="name">
   
+  <!-- Testing to see if we get any data -->
+            Display {{newGoal.name}}
         </div>
         <div class="form-group">
   
@@ -16,11 +18,11 @@
   
         </div>
         <div class="form-group">
+  
             <label for="complete">Completion</label>
             <input type='date' id="complete" required>
   
         </div>
+        <button type="submit" class="btn btn-success">Add Quote</button>
     </form>
   </div>
-  
-  
