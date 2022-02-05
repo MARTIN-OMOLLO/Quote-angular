@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AddGoalsComponent } from './components/add-goals/add-goals.component';
+import { GoalFormComponent } from './goal-form/goal-form.component';
 
 const routes: Routes = [
   {
@@ -11,6 +12,10 @@ const routes: Routes = [
   {
     path:"add",
     component:AddGoalsComponent
+  },
+  {
+    path:"add-goal",
+    component:GoalFormComponent
   }
 ];
 
