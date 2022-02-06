@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AddGoalsComponent } from './components/add-goals/add-goals.component';
+import * as addGoalsComponent from './home/martin/Documents/Quotes/src/app/modules/goals/goal-form/goal-form.component';
 import { GoalFormComponent } from './goal-form/goal-form.component';
 
 const routes: Routes = [
@@ -11,7 +11,7 @@ const routes: Routes = [
   },
   {
     path:"add",
-    component:AddGoalsComponent
+    component:addGoalsComponent.AddGoalsComponent
   },
   {
     path:"add-goal",
