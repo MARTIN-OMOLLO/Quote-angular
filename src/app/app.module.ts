@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { GoalsModule } from './modules/goals/goals.module';
+// import { GoalsModule } from './modules/goals/goals.module';
 
 @NgModule({
   declarations: [
