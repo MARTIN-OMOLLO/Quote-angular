@@ -7,7 +7,7 @@ import {Goal} from 'src/app/goal';
   styleUrls: ['./goal-detail.component.css']
 })
 export class GoalDetailComponent implements OnInit {
-  @Input() goal: Goal;
+  @Input() goal: Goal | undefined;
 
   constructor() { }
 
