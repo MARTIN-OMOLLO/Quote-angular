@@ -9,20 +9,21 @@ import { GoalFormComponent } from './goal-form/goal-form.component';
 import { GoalDetailComponent } from './goal-detail/goal-detail.component';
 
 
-@NgModule({
-  declarations: [
-    AddGoalsComponent,
-    GoalFormComponent,
-    GoalComponent,
-    GoalDetailComponent
-  ],
-  imports: [
-    CommonModule,
-    GoalsRoutingModule,
-    FormsModule,
-    ReactiveFormsModule
-  ],
+// @
+  //       AddGoalsComponent,
+  //   GoalFormComponent,
+  //   GoalComponent,
+  //   GoalDetailComponent
+  // ],
+  // imports: [
+  //   CommonModule,
+  //   GoalsRoutingModule,
+  //   FormsModule,
+  //   ReactiveFormsModule
+  // ],
   // exports:[AddGoalsComponent],
 
-})
-export class GoalsModule { }
+// })
+// export class GoalsModule { }
+
+
