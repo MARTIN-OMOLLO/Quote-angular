@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Goal } from 'src/app/goal';
+import Goal from 'src/app/goal';
 
 
 @Component({
